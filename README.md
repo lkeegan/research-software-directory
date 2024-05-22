@@ -2,9 +2,9 @@
 
 This repo contains the data from which the [SSC Research Software Directory](https://www.ssc.uni-heidelberg.de/en/research-software-directory) is generated.
 
-**Note: this README.md file is generated from the [README.md.j2](README.md.j2) jinja template - edit this template if you want to modify the README!**
+Whenever [data.yml](data.yml) is updated, the HTML code below is automatically updated, which can be copy&pasted (click icon in top right of code block below) into drupal:
 
-Whenever [data.yml](data.yml) is updated, the HTML code below is automatically updated, which can be copy&pasted into drupal:
+*Note: this README.md file is generated from the [README.md.j2](README.md.j2) jinja template - edit this template if you want to modify the README!*
 
 ```html
 <p>There is a lot of research software that is being developed and used at Heidelberg University. This Research Software Directory is meant to be a comprehensive but by no means complete list of such software, and may aid you in identifying collaboration partners.</p>
@@ -149,6 +149,18 @@ Whenever [data.yml](data.yml) is updated, the HTML code below is automatically u
     </tr>
     <tr>
       <td>
+        <p><strong>dantro</strong></p>
+        <p>dantro is a Python package that provides a uniform interface for hierarchically structured and semantically heterogeneous data. It provides an integrated, automated and configurable data processing pipeline from data handling over arbitrary transformation to publication quality data visualization.</p>
+      </td>
+      <td>Data Science</td>
+      <td>Roth group</td>
+      <td>
+        <p>10.21105/joss.02316</p>
+      </td>
+      <td><a href="https://github.com/utopia-foss/dantro">https://github.com/utopia-foss/dantro</a></td>
+    </tr>
+    <tr>
+      <td>
         <p><strong>decoupleR</strong></p>
         <p>There are many methods that allow us to extract biological activities from omics data.&nbsp;decoupleR&nbsp;is a Bioconductor package containing different statistical methods to extract biological signatures from prior knowledge within a unified framework. Additionally, it incorporates methods that take into account the sign and weight of network interactions.&nbsp;decoupleR&nbsp;can be used with any omic, as long as its features can be linked to a biological process based on prior knowledge. For example, in transcriptomics gene sets regulated by a transcription factor, or in phospho-proteomics phosphosites that are targeted by a kinase. There are both R and python versions.&nbsp;</p>
       </td>
@@ -211,7 +223,7 @@ Whenever [data.yml](data.yml) is updated, the HTML code below is automatically u
     </tr>
     <tr>
       <td>
-        <p><strong>FDA</strong></p>
+        <p><strong>Force Distribution Analysis</strong></p>
         <p>Force distribution analysis (FDA) is a method to detect and follow force and stress propagation in proteins, reminiscent of Finite Element Analysis used to engineer macroscopic structures. The method is based on Molecular Dynamics simulations during which we directly calculate forces between each atom pair in a system.&nbsp;</p>
       </td>
       <td>Physical Chemistry, Biochemistry, Biophysics</td>
@@ -805,6 +817,19 @@ Whenever [data.yml](data.yml) is updated, the HTML code below is automatically u
         <p>10.1016/j.astropartphys.2018.02.008</p>
       </td>
       <td><a href="https://www.ita.uni-heidelberg.de/~fspanier/software/unicorn.shtml?lang…">https://www.ita.uni-heidelberg.de/~fspanier/software/unicorn.shtml?lang…</a></td>
+    </tr>
+    <tr>
+      <td>
+        <p><strong>UTOPIA</strong></p>
+        <p>Utopia is a comprehensive modelling framework for complex and adaptive systems that provides an integrated, automated workflow from data generation to data analysis and visualization. It thereby uses C++ for model implementation and Python for data analysis and is designed for user-friendliness and to facilitate collaborative research.</p>
+      </td>
+      <td>Physics, Complexity Science</td>
+      <td>Roth group</td>
+      <td>
+        <p>10.21105/joss.02165</p>
+        <p>10.1007/978-3-030-50436-6_32</p>
+      </td>
+      <td><a href="https://utopia-project.org">https://utopia-project.org</a></td>
     </tr>
     <tr>
       <td>
